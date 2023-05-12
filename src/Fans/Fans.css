@@ -1,0 +1,39 @@
+
+.fondofans{
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/musicosjacm.appspot.com/o/fondofans.png?alt=media&token=2ffee6d9-3e76-4b9b-a4fe-ef5961377aaa");
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 20%;
+  filter:grayscale(70%);
+  position: relative;
+  z-index: 1;
+}
+
+.fondofans::after {
+  content: "";
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.titulofans{
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.line{
+
+  height: 6px;
+    background-color: yellow;
+}
+
+.row{
+  padding-top: 30px;
+}
